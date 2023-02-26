@@ -2,5 +2,6 @@ PLANING
 ChatGPT – a generative pre-trained transformer (GPT) – was fine-tuned (an approach to transfer learning[5]) on top of GPT-3.5 using supervised learning as well as reinforcement learning.[6] Both approaches used human trainers to improve the model's performance. In the case of supervised learning,
 *ESC1
 *ESC2
+- test
 the model was provided with conversations in which the trainers played both sides: the user and the AI assistant. In the reinforcement learning step, human trainers first ranked responses that the model had created in a previous conversation. These rankings were used to create 'reward models' that the model was further fine-tuned on using several iterations of Proximal Policy Optimization (PPO).
 Proximal Policy Optimization algorithms present a cost-effective benefit to trust region policy optimization algorithms; they negate many of the computationally expensive operations with faster performance.[9][10] The models were trained in collaboration with Microsoft on their Azure supercomputing infrastructure.
